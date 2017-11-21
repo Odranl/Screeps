@@ -20,10 +20,10 @@ var minersCount = 0;
 var energyCollectorsCount = 0;
 var repairerCount = 0;
 
-var repairer = [WORK, CARRY, MOVE, CARRY, MOVE, CARRY, MOVE, WORK];
+var repairer = [WORK, CARRY, MOVE, CARRY, MOVE, CARRY, MOVE, WORK, CARRY, MOVE, WORK, MOVE, MOVE];
 var standardWorker = [WORK, MOVE, MOVE, CARRY, CARRY, WORK, MOVE, MOVE]; 
-var miner = [WORK, WORK, WORK, WORK, MOVE, MOVE];
-var energyCollector = [MOVE,MOVE,MOVE, MOVE,MOVE,CARRY,CARRY,CARRY, CARRY, CARRY];
+var miner = [WORK, WORK, WORK, WORK, MOVE, MOVE, WORK, WORK, MOVE, MOVE];
+var energyCollector = [MOVE,MOVE,MOVE, MOVE,MOVE,CARRY,CARRY,CARRY, CARRY, CARRY, CARRY, CARRY, MOVE, MOVE];
 
 var cost = function(arrayOfTasks) {
 
