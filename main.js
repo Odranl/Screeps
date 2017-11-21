@@ -1,10 +1,10 @@
 /// <reference path="typings/index.d.ts" />
 
 var MAX_UPGRADER_ALIVE = 3;
-var MAX_BUILDERS_ALIVE = 2;
+var MAX_BUILDERS_ALIVE = 3;
 var MAX_MINERS_ALIVE = 4;
 var MAX_COLLECTORS_ALIVE = 6;
-var MAX_REPAIRER_ALIVE = 1;
+var MAX_REPAIRER_ALIVE = 2;
 
 var runHarvester = require('role.harvester');
 var runUpgrader = require('role.upgrader');
